@@ -1,10 +1,19 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 import UploadWidget from './components/UploadWidget'
 import PhotoLibrary from './components/PhotoLibrary'
 
 function App() {
   const [imageList, setImageList] = useState([])
+  
+
+  useEffect(()=>{
+    fetch('http://localhost:3000/images')
+    .then(response=> response.json())
+    .then(allImages => allImages.forEach((image)=>{
+      setImageList(prevImageList => [...prevImageList, image.url])
+    }))
+  },[])
   return (
     <>
       <div>

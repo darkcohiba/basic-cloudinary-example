@@ -14,14 +14,14 @@ export default function PhotoLibrary({ imageList }) {
     }, [imageList])
 
     const imagesToDisplay = imageList.map((image) => (
-        <img className="w-96 h-96"   key={image} src={image}></img>
+        <img className="max-w-md h-auto mx-auto my-2" key={image} src={image}></img>
     ))
     return (
         <>
-        <div>
-            {imagesToDisplay}
-        </div>
-            
+            <div>
+                {imagesToDisplay}
+            </div>
+
         </>
     )
 }
