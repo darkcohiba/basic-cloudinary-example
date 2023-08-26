@@ -1,32 +1,3 @@
 {
-  "images": [
-    {
-      "url": "http://res.cloudinary.com/dmjqozd2x/image/upload/v1693026883/njrwllzhthj9ldye7jae.png",
-      "id": 1
-    },
-    {
-      "url": "http://res.cloudinary.com/dmjqozd2x/image/upload/v1693026903/jotoh1hsu6m8qgsuho21.jpg",
-      "id": 2
-    },
-    {
-      "url": "http://res.cloudinary.com/dmjqozd2x/image/upload/v1693026940/cav1beg3fd2phcrsytg9.jpg",
-      "id": 3
-    },
-    {
-      "url": "http://res.cloudinary.com/dmjqozd2x/image/upload/v1693027023/l7nylef9yjsuiej95vg8.jpg",
-      "id": 4
-    },
-    {
-      "url": "http://res.cloudinary.com/dmjqozd2x/image/upload/v1693027858/rohcs7n7yxsfovj1bghq.png",
-      "id": 5
-    },
-    {
-      "url": "http://res.cloudinary.com/dmjqozd2x/image/upload/v1693027875/bxycllilca1cmqrlytq0.png",
-      "id": 6
-    },
-    {
-      "url": "http://res.cloudinary.com/dmjqozd2x/image/upload/v1693028937/yxf1a2jtxszc3xgkomn0.png",
-      "id": 7
-    }
-  ]
+    "images": []
 }

@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react'
 import camera from '../assets/camera.svg'
 
+// https://cloudinary.com/documentation/upload_widget?utm_content=upload_widget_react&utm_medium=video&utm_source=youtube&utm_campaign=devhints#how_to_set_up_and_integrate_the_upload_widget_into_your_site_or_app
 
 function UploadWidget({ setImageList, imageList }) {
 

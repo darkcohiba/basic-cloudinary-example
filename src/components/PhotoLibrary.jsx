@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { Cloudinary } from "@cloudinary/url-gen";
+// https://cloudinary.com/documentation/advanced_image_components_tutorial
 import { AdvancedImage } from '@cloudinary/react';
 
 
@@ -13,7 +14,7 @@ export default function PhotoLibrary({ imageList }) {
     }, [imageList])
 
     const imagesToDisplay = imageList.map((image) => (
-        <img style={{ width: '500px', height: '500px' }} key={image} src={image}></img>
+        <img className="w-96 h-96"   key={image} src={image}></img>
     ))
     return (
         <>
