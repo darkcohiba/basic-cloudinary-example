@@ -11,7 +11,7 @@ function App() {
     fetch('http://localhost:3000/images')
     .then(response=> response.json())
     .then(allImages => allImages.forEach((image)=>{
-      setImageList(prevImageList => [...prevImageList, image.url])
+      setImageList(prevImageList => [...prevImageList, image.publicId])
     }))
   },[])
   return (
