@@ -6,7 +6,6 @@ import { pixelate } from '@cloudinary/url-gen/actions/effect';
 
 
 
-
 export default function PhotoLibrary({ imageList }) {
     const cld = new Cloudinary({ cloud: { cloudName: 'dmjqozd2x' } });
     // rendered as img elements
@@ -21,6 +20,7 @@ export default function PhotoLibrary({ imageList }) {
                 className="max-w-md h-auto mx-auto my-2"
                 cldImg={cld.image(image)}
                 key={image}
+                
             />
         )
     })
