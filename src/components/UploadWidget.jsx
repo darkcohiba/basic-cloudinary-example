@@ -10,11 +10,13 @@ function UploadWidget({ setImageList, imageList }) {
 
 
     useEffect(() => {
+        console.log(window.cloudinary)
         cloudinaryRef.current = window.cloudinary;
         widgetRef.current = cloudinaryRef.current.createUploadWidget({
             cloudName: 'dmjqozd2x',
             uploadPreset: 'Cohiba'
         }, function (error, result) {
+            // console.log(result)
             if (result.event == "success") {
                 console.log(result)
                 console.log(result.info.url)

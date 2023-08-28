@@ -14,6 +14,7 @@ function App() {
       setImageList(prevImageList => [...prevImageList, image.publicId])
     }))
   },[])
+  
   return (
     <>
       <div>
