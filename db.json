@@ -1,39 +1,5 @@
 {
   "images": [
-    {
-      "url": "http://res.cloudinary.com/dmjqozd2x/image/upload/v1693113842/cdjs42lnis0ydtv5jwf1.png",
-      "publicId": "cdjs42lnis0ydtv5jwf1",
-      "id": 1
-    },
-    {
-      "url": "http://res.cloudinary.com/dmjqozd2x/image/upload/v1693114597/iy9zf5uyjs1lwioyiblr.png",
-      "publicId": "iy9zf5uyjs1lwioyiblr",
-      "id": 2
-    },
-    {
-      "url": "http://res.cloudinary.com/dmjqozd2x/image/upload/v1693114613/o7dpc2xgykuwokehy46r.png",
-      "publicId": "o7dpc2xgykuwokehy46r",
-      "id": 3
-    },
-    {
-      "url": "http://res.cloudinary.com/dmjqozd2x/image/upload/v1693167342/waaewwamdksseh1susgz.jpg",
-      "publicId": "waaewwamdksseh1susgz",
-      "id": 4
-    },
-    {
-      "url": "http://res.cloudinary.com/dmjqozd2x/image/upload/v1693167378/hzpexk5wylmw6c0qtxgn.jpg",
-      "publicId": "hzpexk5wylmw6c0qtxgn",
-      "id": 5
-    },
-    {
-      "url": "http://res.cloudinary.com/dmjqozd2x/image/upload/v1693167475/tg8qmciqbywuiymssjjt.jpg",
-      "publicId": "tg8qmciqbywuiymssjjt",
-      "id": 6
-    },
-    {
-      "url": "http://res.cloudinary.com/dmjqozd2x/image/upload/v1693167522/wnggxdddaaz0rfajxlyg.png",
-      "publicId": "wnggxdddaaz0rfajxlyg",
-      "id": 7
-    }
+
   ]
 }
