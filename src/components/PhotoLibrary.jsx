@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react'
 import { Cloudinary } from "@cloudinary/url-gen";
 // https://cloudinary.com/documentation/advanced_image_components_tutorial
-import { AdvancedImage } from '@cloudinary/react';
+import { AdvancedImage, lazyload, accessibility, responsive, placeholder } from '@cloudinary/react';
 import { pixelate } from '@cloudinary/url-gen/actions/effect';
 
 
 
 export default function PhotoLibrary({ imageList }) {
-    console.log(imageList)
+    // console.log(imageList)
     const cld = new Cloudinary({ cloud: { cloudName: 'dmjqozd2x' } });
     // rendered as img elements
     const imagesToDisplay = imageList.map((image) => (
@@ -21,6 +21,7 @@ export default function PhotoLibrary({ imageList }) {
                 className="max-w-md h-auto mx-auto my-2"
                 cldImg={cld.image(image)}
                 key={image}
+                plugins={[lazyload(), responsive(), placeholder({mode: 'blur'})]}
                 
             />
         )
